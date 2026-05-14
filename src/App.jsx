@@ -19,7 +19,7 @@ function App() {
         <div className="nav-content">
           <div className="logo">
             <span className="logo-icon">📱</span>
-            <span className="logo-text">PhoneApp</span>
+            <span className="logo-text">Aarogya India App</span>
           </div>
           <div className="nav-links">
             <a href="#features">Features</a>
@@ -46,9 +46,9 @@ function App() {
         </div>
         <div className="hero-image-container">
           <img 
-            src="/phone_app_hero_1778741864948.png" 
-            alt="Phone App Hero" 
-            className="hero-image"
+            src="/qr_code_download.png" 
+            alt="Download QR Code" 
+            className="hero-image qr-hero-style"
           />
           <div className="hero-blob"></div>
         </div>
@@ -56,7 +56,7 @@ function App() {
 
       {/* Features Section */}
       <section id="features" className="features">
-        <h2 className="section-title">Why Choose <span className="gradient-text">PhoneApp</span>?</h2>
+        <h2 className="section-title">Why Choose <span className="gradient-text">Aarogya India App</span>?</h2>
         <div className="feature-grid">
           <div className="glass-card feature-card">
             <div className="feature-icon">🚀</div>
@@ -91,6 +91,33 @@ function App() {
           <span className="stat-label">Countries</span>
         </div>
       </section>
+      {/* QR Section */}
+      <section className="qr-section">
+        <div className="glass-card qr-container">
+          <div className="qr-text">
+            <h2 className="section-title">Scan to <span className="gradient-text">Download</span></h2>
+            <p>Scan the QR code with your phone's camera to instantly download the Aarogya India App.</p>
+            <div className="qr-info">
+              <div className="qr-info-item">
+                <span className="icon">✓</span>
+                <span>Available for Android</span>
+              </div>
+              <div className="qr-info-item">
+                <span className="icon">✓</span>
+                <span>Direct Download</span>
+              </div>
+            </div>
+          </div>
+          <div className="qr-image-wrapper">
+            <img 
+              src="/qr_code_download.png" 
+              alt="Download QR Code" 
+              className="qr-image"
+            />
+            <div className="qr-glow"></div>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="footer">
@@ -98,7 +125,7 @@ function App() {
           <div className="footer-brand">
             <div className="logo">
               <span className="logo-icon">📱</span>
-              <span className="logo-text">PhoneApp</span>
+              <span className="logo-text">Aarogya India App</span>
             </div>
             <p>Making technology more human, one pixel at a time.</p>
           </div>
@@ -124,7 +151,7 @@ function App() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 PhoneApp Inc. All rights reserved.</p>
+          <p>&copy; 2026 Aarogya India App Inc. All rights reserved.</p>
         </div>
       </footer>
     </div>
